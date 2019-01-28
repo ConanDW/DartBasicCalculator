@@ -17,4 +17,16 @@ $ sudo apt-get install dart
 <br />
 $ sudo apt-get install git
 <br />
-
+mkdir dartcal
+<br />
+cd dartcal
+<br />
+git clone https://github.com/ConanDW/DartBasicCalculator.git
+<br />
+<b>Use<b>
+cd dartcal
+<br />
+dart dartcal
+<br />
+Enjoy  
+  
