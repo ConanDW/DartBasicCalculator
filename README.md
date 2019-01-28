@@ -23,7 +23,8 @@ cd dartcal
 <br />
 git clone https://github.com/ConanDW/DartBasicCalculator.git
 <br />
-<b>Use<b>
+<b>How to Use</b>
+<br />
 cd dartcal
 <br />
 dart dartcal
