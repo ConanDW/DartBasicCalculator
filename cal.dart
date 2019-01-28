@@ -2,7 +2,7 @@ import "dart:io";
 import "dart:math";
 
 void main() {
-stdout.write("Additon, Subtraction, Multiplication, or Divison");
+stdout.write("Additon, Subtraction, Multiplication, Divison, or Exit: ");
 var first = stdin.readLineSync();
 switch (first) {
   case "Additon":
@@ -16,7 +16,22 @@ switch (first) {
    break; 
   case "Divison": 
    dividenums();
-   break;   
+   break;
+  case "Exit":
+   exit(0);
+   break;
+  case "addition":
+   addnums();
+   break;
+  case "divison":
+   dividenums();
+   break;
+  case "multiplication":
+   timesnums();
+   break;
+  case "subtraction":
+   subnums();
+   break;        
  }
 }
 
@@ -28,6 +43,7 @@ stdout.write("Second Number: ");
 var confTwo = stdin.readLineSync();
 var numT = int.tryParse(confTwo);
 print("${numO} + ${numT} = ${numO + numT}");
+main();
 }
 
 void subnums() {
@@ -38,6 +54,7 @@ stdout.write("Second Number: ");
 var confTwo = stdin.readLineSync();
 var numT = int.tryParse(confTwo);
 print("${numO} - ${numT} = ${numO - numT}");
+main();
 }
 
 void timesnums() {
@@ -47,7 +64,8 @@ var numO = int.tryParse(conf);
 stdout.write("Second Number: ");
 var confTwo = stdin.readLineSync();
 var numT = int.tryParse(confTwo);
-print("${numO} x ${numT} = ${numO - numT}");
+print("${numO} x ${numT} = ${numO * numT}");
+main();
 }
 
 void dividenums() {
@@ -57,6 +75,7 @@ var numO = int.tryParse(conf);
 stdout.write("Second Number: ");
 var confTwo = stdin.readLineSync();
 var numT = int.tryParse(confTwo);
-print("${numO} / ${numT} = ${numO - numT}");
+print("${numO} / ${numT} = ${numO / numT}");
+main();
 }
 
