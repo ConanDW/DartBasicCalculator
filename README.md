@@ -1,7 +1,7 @@
 # DartBasicCalculator
 A basic calculator that I wrote in Dart. I use it on all of my command line only Unix or Linux servers.
 <br />
-Debian Based distro install instructions shown.
+Debian based distros install instructions are shown.
 <br /> 
 <b>Installation Steps</b>
 <br />
