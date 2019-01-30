@@ -1,6 +1,8 @@
 # DartBasicCalculator
 A basic calculator that I wrote in Dart. I use it on all of my command line only Unix or Linux servers.
-
+<br />
+Debian Based distro install instructions shown.
+<br /> 
 <b>Installation Steps</b>
 <br />
 $ sudo apt-get update
@@ -17,17 +19,17 @@ $ sudo apt-get install dart
 <br />
 $ sudo apt-get install git
 <br />
-mkdir dartcal
+$ mkdir dartcal
 <br />
-cd dartcal
+$ cd dartcal
 <br />
-git clone https://github.com/ConanDW/DartBasicCalculator.git
+$ git clone https://github.com/ConanDW/DartBasicCalculator.git
 <br />
 <b>How to Use</b>
 <br />
-cd dartcal
+$ cd dartcal
 <br />
-dart dartcal
+$ dart dartcal
 <br />
 Enjoy  
   
