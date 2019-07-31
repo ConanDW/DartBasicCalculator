@@ -4,7 +4,7 @@ void main() {
   stdout.write("Additon, Subtraction, Multiplication, Divison, or Exit: ");
   var first = stdin.readLineSync();
   switch (first) {
-    case "Additon": {
+    case "Addition": {
       addnums();
       break;
     }
@@ -21,6 +21,10 @@ void main() {
       break;
     }
     case "Exit": {
+      exit(0);
+      break;
+    }
+    case "exit": {
       exit(0);
       break;
     }
@@ -41,7 +45,9 @@ void main() {
       break;
     }   
     default: {
-      print("Submitted answer not know, please try again.")
+      print("Submitted answer not know, please try again.");
+      main();
+      break;
     }   
  }
 }
